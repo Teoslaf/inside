@@ -1,0 +1,75 @@
+body html {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: sans-serif;
+	overflow: hidden;
+}
+.masthead {
+	height: 120vh;
+	background-image: url('light.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	margin-top: 20vh;
+	color: #fff;
+	font-size: 44px;
+	word-spacing: 5em;
+	font-weight: bold;
+}
+h2 {
+	color: #fff;
+	font-size: 90px;
+	font-weight: bold;
+	font-family: Arial Black;
+}
+h5 {
+	margin-top: 4vh;
+	color: #fff;
+	letter-spacing: 1.5rem;
+	text-align: center;
+}
+
+.btn-outline-danger {
+	color: #fff;
+	border: 3px solid #ee2e34;
+}
+
+.btn-outline-danger:hover {
+	color: #ee2e34;
+	background-color: rgba(190, 190, 190, 0.3);
+	border-color: #ee2e34;
+}
+.btn-outline-danger:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+@media screen and (max-width: 992px) {
+	h1 {
+		font-size: 50px;
+		word-spacing: 2em;
+	}
+}
+@media screen and (max-width: 768px) {
+	h1 {
+		font-size: 40px;
+		word-spacing: 2em;
+	}
+}
+@media screen and (max-width: 992px) {
+	h2 {
+		font-size: 50px;
+		word-spacing: 0.2em;
+	}
+}
+@media screen and (max-width: 768px) {
+	h2 {
+		font-size: 40px;
+		word-spacing: 0.2em;
+	}
+}
